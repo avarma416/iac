@@ -10,6 +10,7 @@ echo "Starting initialization script..."
 
 # Update system
 sudo apt update -y
+sudo apt upgrade -y
 
 # Install Docker 
 sudo apt install docker.io -y
