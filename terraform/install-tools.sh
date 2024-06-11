@@ -11,7 +11,6 @@ echo "Starting initialization script..."
 # Update system
 sudo apt update -y
 
-
 # Install Docker 
 sudo apt install docker.io -y
 sudo usermod -aG docker ubuntu
